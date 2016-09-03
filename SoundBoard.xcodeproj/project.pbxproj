@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE8200B31D79DBC3000A4FB5 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8200B21D79DBC3000A4FB5 /* SoundViewController.swift */; };
 		BEC360F21D78E6C8000A4E2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC360F11D78E6C8000A4E2A /* AppDelegate.swift */; };
 		BEC360F41D78E6C8000A4E2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC360F31D78E6C8000A4E2A /* ViewController.swift */; };
 		BEC360F71D78E6C8000A4E2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC360F51D78E6C8000A4E2A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE8200B21D79DBC3000A4FB5 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 		BEC360EE1D78E6C8000A4E2A /* SoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC360F11D78E6C8000A4E2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEC360F31D78E6C8000A4E2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BEC360F11D78E6C8000A4E2A /* AppDelegate.swift */,
 				BEC360F31D78E6C8000A4E2A /* ViewController.swift */,
+				BE8200B21D79DBC3000A4FB5 /* SoundViewController.swift */,
 				BEC360F51D78E6C8000A4E2A /* Main.storyboard */,
 				BEC360FB1D78E6C9000A4E2A /* Assets.xcassets */,
 				BEC360FD1D78E6C9000A4E2A /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8200B31D79DBC3000A4FB5 /* SoundViewController.swift in Sources */,
 				BEC360FA1D78E6C9000A4E2A /* SoundBoard.xcdatamodeld in Sources */,
 				BEC360F41D78E6C8000A4E2A /* ViewController.swift in Sources */,
 				BEC360F21D78E6C8000A4E2A /* AppDelegate.swift in Sources */,
@@ -303,6 +307,7 @@
 				BEC361051D78E6C9000A4E2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
